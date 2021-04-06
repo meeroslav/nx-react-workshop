@@ -5,9 +5,10 @@
       "dependencies": "*",
       "devDependencies": "*"
     },
+    "tsconfig.base.json": "*",
     "tslint.json": "*",
-    "nx.json": "*",
-    "tsconfig.base.json": "*"
+    ".eslintrc.json": "*",
+    "nx.json": "*"
   },
   "affected": {
     "defaultBase": "master"

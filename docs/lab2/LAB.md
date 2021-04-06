@@ -2,7 +2,7 @@
 
 ###### ⏰ Estimated time: 15-20 minutes
 
-> Before starting this lab, you can either clone this Git repository (`master` branch will be the starting point) or continue in the folder you created. If you clone, you will get access to all the lab branches so you can `git checkout lab-xx` if you fall behind.
+> Before starting this lab, you can either clone this Git repository you're looking at (`master` branch will be the starting point) or continue in the folder you created. If you clone, you will get access to all the lab branches so you can `git checkout lab-xx` if you fall behind.
 
 In this lab we'll generate our first React application within the new monorepo.
 
@@ -29,7 +29,7 @@ In this lab we'll generate our first React application within the new monorepo.
    - install the CLI globally: `npm i -g @nrwl/cli`
    - if you don't want to install it globally, use `yarn nx` instead of `nx` in all the commands below
 
-> Please make sure you are using the latest version of Nx (9.1.4)
+> Please make sure you are using the latest version of Nx (11.5+)
 
 2. Run `nx list` to see which plugins you have installed
 3. Add the React plugin: `yarn add @nrwl/react`
