@@ -1,3 +1,3 @@
-##### To generate a new Angular application:
+##### To generate a new React application:
 
-`nx generate @nrwl/angular:application store` (or `nx g app store`)
+`nx generate @nrwl/react:application store` (or `nx g app store`)

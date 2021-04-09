@@ -1,5 +1,4 @@
 {
-  "npmScope": "bg-hoard",
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": {
@@ -10,7 +9,10 @@
     "nx.json": "*",
     "tsconfig.base.json": "*"
   },
-  "projects": {},
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "bg-hoard",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
@@ -19,7 +21,13 @@
       }
     }
   },
-  "affected": {
-    "defaultBase": "master"
+  "projects": {
+    "store": {
+      "tags": []
+    },
+    "store-e2e": {
+      "tags": [],
+      "implicitDependencies": ["store"]
+    }
   }
 }
